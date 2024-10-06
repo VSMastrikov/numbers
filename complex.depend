@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1728205993 source:c:\users\sl\coding_style\mycomplex.cpp
+1728213470 source:c:\users\sl\coding_style\mycomplex.cpp
 	<iostream>
 	<cmath>
 	"mycomplex.h"
 
-1728206567 c:\users\sl\coding_style\mycomplex.h
+1728213104 c:\users\sl\coding_style\mycomplex.h
 	<iostream>
 
-1728206094 source:c:\users\sl\coding_style\testcmp.cpp
+1728214246 source:c:\users\sl\coding_style\testcmp.cpp
 	<iostream>
 	"mycomplex.h"
 
