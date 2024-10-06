@@ -129,7 +129,7 @@ istream & operator >>(istream &stream, Complex&a){
     a.Im >> tmp;
     return stream;
 }
-ostream& operator<<(ostream&stream,Complex&a){
+ostream& operator<<(ostream&stream, Complex&a){
     stream << a.Re;
     if( !(a.Im < 0) ) stream << '+';
         stream << a.Im << 'i';
