@@ -26,11 +26,13 @@ Complex operator- (const double&);
 friend Complex operator- (const 	double&, const Complex&);
 Complex operator* (const Complex&);
 Complex operator* (const double&);
-friend Complex operator* (const double&, const Complex&)    ;Complex operator/ (const double&);
+friend Complex operator* (const double&, const Complex&)    ;
+Complex operator/ (const double&);
 
     Complex& operator+= (const Complex&);
 Complex  &  operator-= (const Complex&)    ;
-    Complex& operator*= (const Complex& );  Complex& operator  += (const double&);
+    Complex& operator*= (const Complex& );
+    Complex& operator  += (const double&);
 Complex& operator-= (const double&);
 Complex  &operator  *=(const double  & );
 Complex  & operator /=( const   double & );
